@@ -1,0 +1,17 @@
+<!-- home.html -->
+<html>
+
+<head>
+    <title>Flask Web App</title>
+</head>
+
+<body>
+    <h1>Flask Web App</h1>
+    <p>This is a simple web app that allows you to upload a text file and execute a Python script on it.</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="text/plain">
+        <input type="submit" value="Upload and Execute">
+    </form>
+</body>
+
+</html>
